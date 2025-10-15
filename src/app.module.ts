@@ -8,12 +8,12 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
-      port: 8000, // Change to 5432 if your PostgreSQL runs on the default port
+      port: 8000,
       username: 'postgres',
-      password: 'aayush',
+      password: 'aayush7804',
       database: 'task-management',
-      autoLoadEntities: true, // Keep this for other entities if needed
-      synchronize: true, // Set to false in production
+      autoLoadEntities: true,
+      synchronize: true,
     }),
   ],
 })
